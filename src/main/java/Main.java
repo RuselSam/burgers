@@ -23,6 +23,5 @@ public class Main {
         twoBurger.proteins=9.7;
         twoBurger.fats=7.1;
         twoBurger.carbohydrates=33.3;
-
     }
 }
