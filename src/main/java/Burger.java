@@ -1,4 +1,5 @@
-public class Burgers {
+public class Burger {
+    int burgerId;
     String avatarUrl;
     String name;
     int price;

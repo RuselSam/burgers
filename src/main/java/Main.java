@@ -1,6 +1,7 @@
 public class Main {
     public static void main(String[] args) {
-        Burgers oneBurger=new Burgers();
+        Burger oneBurger = new Burger();
+        oneBurger.burgerId = 1;
         oneBurger.avatarUrl="https://s82079.cdn.ngenix.net/9VW3RQfY33AnJi7Yu38nKiHc.png?dw=230";
         oneBurger.name="Cheeseburger";
         oneBurger.price=69;
@@ -11,7 +12,8 @@ public class Main {
         oneBurger.fats=8.6;
         oneBurger.carbohydrates=26.6;
 
-        Burgers twoBurger=new Burgers();
+        Burger twoBurger = new Burger();
+        twoBurger.burgerId = 2;
         twoBurger.avatarUrl="https://s82079.cdn.ngenix.net/sRrSzWpf86c4hMMwCJ7aHBph.png?dw=230";
         twoBurger.name="Longer BBQ";
         twoBurger.price=50;
