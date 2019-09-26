@@ -1,5 +1,5 @@
 public class Burger {
-    int burgerId;
+    int id;
     String avatarUrl;
     String name;
     int price;
